@@ -61,7 +61,7 @@ function addTask(e){
     storeTaskInlocalStorage(task);
 
     //clearing input
-    task.value='';
+    taskInput.value='';
 }
     e.preventDefault();
 
